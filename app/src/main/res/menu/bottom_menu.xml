@@ -3,16 +3,14 @@
     <item
         android:id="@+id/action_home"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_home_24"
-        android:title="홈"/>
+        android:icon="@drawable/home1"
+        android:iconTint="#F44336"/>
     <item
         android:id="@+id/action_cate"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_category_24"
-        android:title="카테고리"/>
+        android:icon="@drawable/cate"/>
     <item
         android:id="@+id/action_garden"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_local_florist_24"
-        android:title="내 바구니"/>
+        android:icon="@drawable/bag"/>
 </menu>

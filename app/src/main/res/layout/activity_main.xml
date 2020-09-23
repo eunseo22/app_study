@@ -12,10 +12,11 @@
         android:id="@+id/bottom_navi"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        app:itemIconTint="#000000"
-        app:itemTextColor="#000000"
-        android:background="#ffd5cd"
+        android:layout_marginTop="671dp"
+        android:background="#ffffff"
+        app:itemIconSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/bottom_menu"
         tools:layout_editor_absoluteX="1dp" />
 
