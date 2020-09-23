@@ -7,8 +7,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="검색창"
+        android:background="#ffd5cd"
+        android:textColor="#000000"
         android:gravity="center"
         android:textSize="30sp"/>
 
@@ -23,64 +25,79 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="400dp"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@drawable/fall">
 
-                <ImageView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/fall"/>
+                    android:layout_height="220dp">
+                </LinearLayout>
+
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="5dp"
                     android:layout_weight="1"
                     android:text="가을_수줍게 흔들리는 마음"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp"
+                    android:backgroundTint="#BFFFFFFF"/>
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="5dp"
                     android:layout_weight="1"
                     android:text="가을_행운은 반드시 온다"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp"
+                    android:backgroundTint="#BFFFFFFF"/>
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="5dp"
                     android:layout_weight="1"
                     android:text="가을_당신을 기다리겠습니다"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp"
+                    android:backgroundTint="#BFFFFFFF"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="400dp"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@drawable/chuseock">
 
-                <ImageView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/chuseock"/>
+                    android:layout_height="220dp">
+                </LinearLayout>
+
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="5dp"
                     android:layout_weight="1"
                     android:text="추석_언제나 즐거운 날 되세요"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp"
+                    android:backgroundTint="#BFFFFFFF"/>
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="5dp"
                     android:layout_weight="1"
                     android:text="추석_감사합니다"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp"
+                    android:backgroundTint="#BFFFFFFF"/>
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="5dp"
                     android:layout_weight="1"
                     android:text="추석_틀림없이 행복해집니다"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp"
+                    android:backgroundTint="#BFFFFFFF"/>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp">
             </LinearLayout>
 
         </LinearLayout>
